@@ -76,6 +76,8 @@ module Homebrew
 
       RMDIR_EXCLUSIONS = T.let([
         "Library/Application Support/CrashReporter",
+        "Library/Application Support/com.apple.sharedfilelist/" \
+        "com.apple.LSSharedFileList.ApplicationRecentDocuments",
         "/Library/Application Support",
         "/Library/Caches",
         "/Library/Preferences",
